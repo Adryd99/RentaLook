@@ -1,0 +1,17 @@
+
+/* Applicazione generale del font */
+body {
+    font-family: 'Inter', sans-serif !important; /* Usiamo !important per essere sicuri */
+}
+
+/* Font per elementi specifici */
+.display-4,
+h1, h2, h3, h4, h5, h6,
+.h1, .h2, .h3, .h4, .h5, .h6 {
+    font-family: 'Inter', sans-serif !important;
+}
+
+/* Stile per il testo normale */
+p, .lead, .form-control {
+    font-family: 'Inter', sans-serif !important;
+}
